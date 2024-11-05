@@ -1,0 +1,48 @@
+.if_price_is_zero_plugin{
+    margin-bottom: 20px;
+}
+
+#wepo_woo_product_modal {
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(24, 24, 27, .98);
+    transition: all .4s;
+}
+
+#wepo_woo_product_modal:target {
+    visibility: visible;
+    opacity: 1;
+    z-index: 999999999999999;
+}
+
+.html-with-modal{
+    width: auto !important;
+    overflow: visible !important;
+    scroll-behavior: auto !important;
+}
+
+#wepo_woo_product_modal .modal__content {
+    border-radius: 4px;
+    position: relative;
+    width: 500px;
+    max-width: 90%;
+    background: #fff;
+    padding: 44px;
+}
+
+#wepo_woo_product_modal .modal__close {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    color: #585858;
+    text-decoration: none;
+    font-size: 30px;
+}
