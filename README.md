@@ -1,1 +1,1 @@
-Плагин для WordPress, который добавляет в WooCommerce дополнительный функционал. 
+WooCommerce Extra Product Options is a WordPress plugin that adds extra functionality to WooCommerce.
