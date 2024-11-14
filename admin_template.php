@@ -8,7 +8,7 @@ $if_price_is_zero_catalog_on = get_option('if_price_is_zero_catalog_on');
 
 <div class="wrap">
     <h1> <?php echo get_admin_page_title() ?> </h1>
-    <p>Разрабочик — <a href="https://github.com/edgar010797">Edgar Podosyan</a></p>
+    <p>Разработчик — <a href="https://github.com/edgar010797">Edgar Podosyan</a></p>
     <p><strong>Плагин работает только с простыми и вариативными товарами.</strong></p>
     <form name="if_price_is_zero_admin_options_form" method="post" action="<?php echo $_SERVER['PHP_SELF']; ?>?page=<?php echo $page_slug; ?>&amp;updated=true">
         <table class="form-table">
